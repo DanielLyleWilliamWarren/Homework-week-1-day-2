@@ -52,19 +52,14 @@ def number_to_short_month_name(number)
   end
 end
 
+def volume_of_cube(l)
+  return l ** 3
+end
 
-# def test_substring__month_1()
-#   skip
-#   first_month_string = number_to_short_month_name( 1 )
-#   assert_equal( "Jan", first_month_string )
-# end
+def sphere_volume(r)
+  return ((1/4)*Math::PI)*r
+end
 
-
-
-
-
-
-# def test_number_to_full_name__month_1()
-#   result = number_to_full_month_name( 1 )
-#   assert_equal( "January", result )
-# end
+def conversion(f)
+  return ((f-32)*5)/9
+end
